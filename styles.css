@@ -1,0 +1,55 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Oswald', sans-serif;
+    font-family: 'Outfit', sans-serif;
+    display: grid;
+    justify-content: center;
+}    
+#our-menu{
+    text-align: center;
+    margin-top: 4em;
+    color: #7124b4;
+}
+#line-up{
+    margin:0.5em;
+    text-align: center;
+    font-weight: 700;
+    font-size:1.8rem;
+    line-height: 1.6em;
+}
+.collections{
+    margin: auto;
+    padding: 2em;
+    min-width: 80%;
+    min-height: auto;
+    height: auto;
+    width: 80%;
+    text-align: center;
+
+}
+ul li{
+    display: inline-block;
+    margin: 1em;
+    flex-wrap: wrap;
+    text-align: center;
+}
+figure{
+    display: inline-block;
+    margin:1em  1em;
+}
+figure img{
+    border-radius: 18px;
+}
+figcaption{
+    padding-top: .5em;
+    font-weight: 700;
+}
+
+li:hover{
+    box-shadow: 0 0 1em 0.2em  #000000;
+    border-radius: 18px;
+}
