@@ -8,15 +8,42 @@
     <link rel="stylesheet" href="styles.css" type="text/css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@300;700&family=Outfit:wght@400;700&display=swap" rel="stylesheet">
 </head>
 <body>
-    <main>
-        <div id="homeBanner">
+    
+    <div class="main">
+        <div class="header">
+            <div class="hdr_logo_div">
+            <div class="burger-menu-icon">
+            <a id="burger_menu_a"><img src="Images/logo.png" alt="burger-menu-icon"></a>
+            </div>
+            </div>
+            <ul class="desktop-menu-left">
+                <li class="active"><a class="dotpe active" target="_blank" href="https://tacobell.dotpe.in/order?utm_source=website&amp;utm_campaign=delivery">Order Now</a></li>
+                <li><a href="/#our_menu_id" class="our_food">Our food</a></li>
+                
+                <li><a href="/find-us">Find Us</a></li>
+                
+                <li><a target="_blank" href="/pub/media/pdf/nutritional-info.pdf">Nutrition</a></li>
+                <li><a href="/about-us">About Us</a></li>
+                <li><a href="/whats-new">What’s New</a></li>
+                </ul>
+        </div>
+
+        <div class="mobileheader">
+            <i class="fa fa-bars" style="font-size:32px;color: white;" ></i>
+            <img src="Images/logo.png" alt="logo" class="mobilelogo">
+            <i class="fa fa-map-marker" style="font-size:30px;color: white;" ></i>
+        </div>
+    
+       <div class="box">
+         <div id="homeBanner">
             <video class="new-bnr-video" width="100%" height="auto" loop="loop" autoplay="autoplay" muted="muted">
                 <source src="https://www.tacobell.co.in/pub/media/video-banner/crave-save.mp4" type="video/mp4">
             </video>
-        </div>
+        </div> 
         <h2 id="our-menu">OUR MENU</h2>
         <p id="line-up">THE LINE-UP</p>
         <div class="container">
@@ -29,7 +56,11 @@
                 <li><figure><img src="Images/Sides-n.jpg" alt="sides" height="250" width="280"><figcaption>SIDES</figcaption></figure></li>
             </ul>
         </div>
-    </main>
+       </div>
+    </div>
+
+
+
     <footer>
 
     </footer>
