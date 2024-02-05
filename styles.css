@@ -53,3 +53,8 @@ li:hover{
     box-shadow: 0 0 1em 0.2em  #000000;
     border-radius: 18px;
 }
+
+@media screen and (max-width: 1023px)
+.new-bnr-video {
+    height: 500px;
+}
